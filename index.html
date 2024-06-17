@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page1 h-screen w-screen  flex justify-center items-center ">
+    <div class="container bg-stone-700 w-auto h-98 p-5 rounded-2xl border-2 border-indigo-600 shadow-lg shadow-indigo-500/50">
+      <form action="">
+          <input type="text" class="display" placeholder="0">
+        <section>
+          <input type="button" class="operator button" value="AC">
+          <input type="button" class="operator button" value="DEL">
+          <input type="button" class="operator button" value="%">
+          <input type="button" class="operator button" value="/">
+        </section>
+        <section>
+          <input type="button" value="7" class="button">
+          <input type="button" value="8" class="button">
+          <input type="button" value="9" class="button">
+          <input type="button" class="operator button" value="*">
+        </section>
+        <section>
+          <input type="button" value="4" class="button">
+          <input type="button" value="5" class="button">
+          <input type="button" value="6" class="button">
+          <input type="button" class="operator button" value="-">
+        </section>
+        <section>
+          <input type="button" value="1" class="button">
+          <input type="button" value="2" class="button">
+          <input type="button" value="3" class="button">
+          <input type="button" class="operator button" value="+">
+        </section>
+        <section>
+          <input type="button" value="0" class="button">
+          <input type="button" value="00" class="button">
+          <input type="button" value="." class="button">
+          <input type="button" id="equalto" class="button" value="=">
+        </section>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
