@@ -1,4 +1,4 @@
-# Calculator
+# Calculator Web Application
 <h1><u></u>Features</u></h1>
 <ol type="1">
   <li><h3>Digit Buttons (0-9):</h3> Allows users to input numbers.</li>
